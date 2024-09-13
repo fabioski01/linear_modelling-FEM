@@ -5,7 +5,7 @@ import numpy as np
 L =  250 # mm 	# total length of the bar (scalar value)
 Nelem = 4 # - 	#number of elements (scalar value)
 F = 1000 # N  	# applied force on the final nodes (scalar value)
-E = 70e9 # Pa 	# elastic modulus (scalar value)
+E = 70e3 # MPa 	# elastic modulus (scalar value)
 BC = np.array([[1 ],[1 ]]) #form: [node numbers], [applied displacements]; each vector can have multiple inputs
 # example BC: np.array([[i],[x]]) should apply a displacement of x on node i
 # example 2 BC: np.array([[i, j],[x, y]]) should apply a displacement of x on node i and a displacement of y on onde j
