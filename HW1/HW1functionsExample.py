@@ -121,4 +121,5 @@ def calcDisp(L, Nelem, F, E, BC):
 			u[i] = u_partial[c_not_mod]
 			c_not_mod += 1
 
-	return u*1e6, strain, stress
+	# return u*1e6, strain, stress
+	return u, strain, stress
