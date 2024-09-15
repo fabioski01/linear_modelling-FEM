@@ -107,4 +107,4 @@ def calcDisp(L, Nelem, F, E, BC):
 	strain = calcStrain(u, L, Nelem)
 	stress = calcStress(strain, E)
 
-	return u, strain, stress
+	return u*1e3, strain, stress
